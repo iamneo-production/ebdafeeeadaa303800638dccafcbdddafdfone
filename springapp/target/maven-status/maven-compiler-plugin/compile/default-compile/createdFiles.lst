@@ -1,5 +1,1 @@
-com/examly/springapp/service/Apiservice.class
-com/examly/springapp/model/Village.class
 com/examly/springapp/SpringappApplication.class
-com/examly/springapp/repository/VillageRepo.class
-com/examly/springapp/controller/VillageController.class

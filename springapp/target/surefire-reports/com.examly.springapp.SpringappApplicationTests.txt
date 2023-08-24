@@ -1,4 +1,56 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.springapp.SpringappApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.575 s - in com.examly.springapp.SpringappApplicationTests
+Tests run: 13, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 4.914 s <<< FAILURE! - in com.examly.springapp.SpringappApplicationTests
+testrepositoryfolder  Time elapsed: 0.433 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testrepositoryfolder(SpringappApplicationTests.java:141)
+
+testModelFile  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testModelFile(SpringappApplicationTests.java:129)
+
+testModelFolder  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testModelFolder(SpringappApplicationTests.java:117)
+
+testServiceFolder  Time elapsed: 0.026 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testServiceFolder(SpringappApplicationTests.java:168)
+
+testrepositoryFile  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testrepositoryFile(SpringappApplicationTests.java:155)
+
+getbyMW  Time elapsed: 0.144 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.getbyMW(SpringappApplicationTests.java:79)
+
+getbyid  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.getbyid(SpringappApplicationTests.java:49)
+
+add  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.add(SpringappApplicationTests.java:37)
+
+controllerfolder  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.controllerfolder(SpringappApplicationTests.java:92)
+
+getbyname  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.getbyname(SpringappApplicationTests.java:69)
+
+testServieFile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.testServieFile(SpringappApplicationTests.java:182)
+
+controllerfile  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at com.examly.springapp.SpringappApplicationTests.controllerfile(SpringappApplicationTests.java:104)
+
+getbypop  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at com.examly.springapp.SpringappApplicationTests.getbypop(SpringappApplicationTests.java:59)
+
